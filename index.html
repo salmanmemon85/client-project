@@ -1,209 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Friend Pet Clinic</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/vendor/vendor.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./assets/vendor/vendor.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <div class="loader">
-        <lottie-player class="lottie-anim" src="./assets/images/loader2.json" background="transparent" speed="1" loop autoplay class="w-100 h-100">
-        </lottie-player>
+      <lottie-player
+        class="lottie-anim"
+        src="./assets/images/loader2.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+        class="w-100 h-100"
+      >
+      </lottie-player>
     </div>
     <div class="main-banner">
-        <!-- ======================header=================== -->
-        <header class="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-5">
-                        <a href=".">
-                            <img src="./assets/images/logo.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-9 col-7">
-                        <div class="header-nav-area">
-                            <nav class="primary-nav">
-                                <ul class="primary-nav-list">
-                                    <li class="primary-nav-item">
-                                        <a href="." class="nav-link">home</a>
-                                    </li>
-                                    <li class="primary-nav-item">
-                                        <a href="./contact.html" class="nav-link">contact</a>
-                                    </li>
-                                    <li class="primary-nav-item">
-                                        <a href="./meetourteam.html" class="nav-link">Meet Our Team</a>
-                                    </li>
-                                    <li class="primary-nav-item">
-                                        <a href="./reviews.html" class="nav-link">Reviews</a>
-                                    </li>
-                                    <li class="primary-nav-item">
-                                        <a href="." class="nav-link">Blog</a>
-                                    </li>
-                                    <li class="primary-nav-item">
-                                        <a href="." class="nav-link">Online Store</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <a href="#" class="primary-btn">request appointment</a>
-                            <div class="hamburger">
-                                <span class="line"></span>
-                                <span class="line"></span>
-                                <span class="line"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- ======================header=================== -->
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-5">
+              <a href=".">
+                <img src="./assets/images/logo.svg" alt="" />
+              </a>
             </div>
-        </header>
-        <!-- ======================header=================== -->
-      
-        <!-- ======================hero banner============= -->
-        <section class="hero-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 mt-5 pt-3">
-                        <h2 class="banner-hd mb-3">Your Family Vet in Shawnee & Bethel Acres, OK</h2>
-                        <p class="para mb-5">Where exceptional caring meets extraordinary care…</p>
-                        <a href="#" class="secondary-btn">Special Offer</a>
-                        <ul class="mt-5 pt-4">
-                            <li>
-                                <a href="#" class="link"> <span><i class="fa-brands fa-facebook"></i></span> @Shawneevet</a>
-                            </li>
-                            <li>
-                                <a href="#" class="link"> <span><i class="fa-brands fa-instagram"></i></span> @shawneevet</a>
-                            </li>
-                            <li>
-                                <a href="#" class="link"> <span><i class="fa-brands fa-twitter"></i></span> @bfacshawnee</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="banner-images-area">
-                            <!-- <img src="./assets/images/img-ban.png" alt="" class="banner-sub-img">
+            <div class="col-md-9 col-7">
+              <div class="header-nav-area">
+                <nav class="primary-nav">
+                  <ul class="primary-nav-list">
+                    <li class="primary-nav-item">
+                      <a href="." class="nav-link">home</a>
+                    </li>
+                    <li class="primary-nav-item">
+                      <a href="./contact.html" class="nav-link">contact</a>
+                    </li>
+                    <li class="primary-nav-item">
+                      <a href="./meetourteam.html" class="nav-link"
+                        >Meet Our Team</a
+                      >
+                    </li>
+                    <li class="primary-nav-item">
+                      <a href="./reviews.html" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="primary-nav-item">
+                      <a href="./blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="primary-nav-item">
+                      <a href="./onlinestore.html" class="nav-link"
+                        >Online Store</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <a href="#" class="primary-btn">request appointment</a>
+                <div class="hamburger">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ======================header=================== -->
+
+      <!-- ======================hero banner============= -->
+      <section class="hero-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 mt-5 pt-3">
+              <h2 class="banner-hd mb-3">
+                Your Family Vet in Shawnee & Bethel Acres, OK
+              </h2>
+              <p class="para mb-5">
+                Where exceptional caring meets extraordinary care…
+              </p>
+              <a href="#" class="secondary-btn">Special Offer</a>
+              <ul class="mt-5 pt-4">
+                <li>
+                  <a href="#" class="link">
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    @Shawneevet</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="link">
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    @shawneevet</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="link">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    @bfacshawnee</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-7">
+              <div class="banner-images-area">
+                <!-- <img src="./assets/images/img-ban.png" alt="" class="banner-sub-img">
                             <img src="./assets/images/img-ban3.png" alt="" class="banner-sub-img banner-img-2">
                             <img src="./assets/images/img-ban2.png" alt="" class="banner-img-3 banner-sub-img"> -->
-                            <img src="./assets/images/banner-img.png" alt="" class="banner-feat-img">
-                        </div>
-                    </div>
-                </div>
+                <img
+                  src="./assets/images/banner-img.png"
+                  alt=""
+                  class="banner-feat-img"
+                />
+              </div>
             </div>
-        </section>
-        <!-- ======================hero banner============= -->
+          </div>
+        </div>
+      </section>
+      <!-- ======================hero banner============= -->
     </div>
-   
-   
+
     <!-- =================seconda sec=================== -->
     <section class="sec-2">
-        <div class="container-fluid p-0">
-            <div class="row m-0 justify-content-between">
-                <div class="col-md-6 p-0">
-                    <div class="content-sec">
-                        <div class="text-icon-area mb-4">
-                            <img src="./assets/images/dog-head.png" alt="" class="icon">
-                            <div class="">
-                                <h4 class="text-md text-white">Our Services</h4>
-                                <p class="text-white">We have services ranging from pet wellness,
-                                    vaccinations to pet behavior counseling.</p>
-                            </div>
-                        </div>
-                        <div class="text-icon-area mb-4">
-                            <img src="./assets/images/appointment-icon.png" alt="" class="icon">
-                            <div class="">
-                                <h4 class="text-md text-white">Request An Appointment</h4>
-                                <p class="text-white">Our sole purpose is your pet's health and
-                                    comfort. Schedule an appointment with our
-                                    vet today!</p>
-                            </div>
-                        </div>
-                        <div class="text-icon-area mb-4">
-                            <img src="./assets/images/stethoscope-icon.png" alt="" class="icon">
-                            <div class="">
-                                <h4 class="text-md text-white">Meet Our Team</h4>
-                                <p class="text-white">We offer advanced capabilities in diagnostic
-                                    technology, along with skilled staff.</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container-fluid p-0">
+        <div class="row m-0 justify-content-between">
+          <div class="col-md-6 p-0">
+            <div class="content-sec">
+              <div class="text-icon-area mb-4">
+                <img src="./assets/images/dog-head.png" alt="" class="icon" />
+                <div class="">
+                  <h4 class="text-md text-white">Our Services</h4>
+                  <p class="text-white">
+                    We have services ranging from pet wellness, vaccinations to
+                    pet behavior counseling.
+                  </p>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="side-img-full" style="background-image: url(./assets/images/dog.png); background-position: center;"></div>
+              </div>
+              <div class="text-icon-area mb-4">
+                <img
+                  src="./assets/images/appointment-icon.png"
+                  alt=""
+                  class="icon"
+                />
+                <div class="">
+                  <h4 class="text-md text-white">Request An Appointment</h4>
+                  <p class="text-white">
+                    Our sole purpose is your pet's health and comfort. Schedule
+                    an appointment with our vet today!
+                  </p>
                 </div>
+              </div>
+              <div class="text-icon-area mb-4">
+                <img
+                  src="./assets/images/stethoscope-icon.png"
+                  alt=""
+                  class="icon"
+                />
+                <div class="">
+                  <h4 class="text-md text-white">Meet Our Team</h4>
+                  <p class="text-white">
+                    We offer advanced capabilities in diagnostic technology,
+                    along with skilled staff.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 p-0">
+            <div
+              class="side-img-full"
+              style="
+                background-image: url(./assets/images/dog.png);
+                background-position: center;
+              "
+            ></div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =================seconda sec=================== -->
     <!-- =================seconda sec=================== -->
     <section class="sec-3">
-        <div class="container-fluid p-0">
-            <div class="row m-0 justify-content-between">
-                <div class="col-md-6 p-0">
-                    <div class="side-img-full position-relative d-flex align-items-end" style="background-image: url(./assets/images/girl.png); background-position: center; background-size: cover;">
-                        <div class="side-img-content">
-                            <div class="side-img-content-up">
-                                <h4 class="text-md text-white text-center">Let's Talk! 405-273-5617</h4>
-                            </div>
-                            <h5 class="text-sm text-white">Core Purpose of Best Friends Animal Clinic</h5>
-                            <p class="para text-white">To compassionately provide care for pets and their owners by utilizing innovative healthcare modalities that produce results.</p>
-                            <h5 class="text-sm text-white mb-4">Get Help From Home!</h5>
-                            <div class="platforms-link">
-                                <a href=""> <img src="./assets/images/google-play-bdge.png" alt=""> </a>
-                                <a href=""> <img src="./assets/images/apple-badge.png" alt=""> </a>
-                                <a href=""> <img src="./assets/images/televet.png" alt=""> </a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container-fluid p-0">
+        <div class="row m-0 justify-content-between">
+          <div class="col-md-6 p-0">
+            <div
+              class="side-img-full position-relative d-flex align-items-end"
+              style="
+                background-image: url(./assets/images/girl.png);
+                background-position: center;
+                background-size: cover;
+              "
+            >
+              <div class="side-img-content">
+                <div class="side-img-content-up">
+                  <h4 class="text-md text-white text-center">
+                    Let's Talk! 405-273-5617
+                  </h4>
                 </div>
-                <div class="col-md-6 p-0">
-                    <div class="content-sec-2">
-                        <h5 class="text-sm">Welcome</h5>
-                        <h4 class="text-md primary-text">Caring For Pets</h4>
-                        <p class="para">Comprehensive, Integrative Health Care for the Pets of Shawnee.
-                            <br> <br>
-                            Companion animals are made up of so much more than just four legs and fur. They are <strong> complex, intelligent and uniquely special </strong> creatures. Shouldn’t their health care be just as exceptional?
-                            <br> <br>
-                            
-                            At <strong> Best Friends Animal Clinic</strong>, we celebrate the uniqueness of each and every patient we serve. That’s why we offer such a comprehensive suite of services. From natural cures to conventional medicine, our <strong> “East meets West”</strong> approach ensures your pet will always receive the most precise, personalized care.
-                            <br> <br>
-                            
-                            Since 1990, we’ve been proudly serving the people and pets of Shawnee & Bethel Acres providing a full range of traditional and integrative medicine options. More importantly, we deliver that care in a way that makes even the most nervous animal <strong> feel safe, comfortable and right at home.</strong>
-                            <br> <br>
-                            
-                            Does your Shawnee vet provide this level of <strong> individualized care and attention? </strong> Are you looking for a <strong> second opinion </strong> or would like to explore more natural options for your pet? If so, we invite you to give Best Friends Animal Clinic a try.
-                            <br> <br>
-                            
-                            From innovative treatment options to the ancient arts of acupuncture, herbs, essential oils and more, we’ve got you covered. <strong> Call or stop by any time</strong>.  We can’t wait to meet you both!</p>
-                    </div>
+                <h5 class="text-sm text-white">
+                  Core Purpose of Best Friends Animal Clinic
+                </h5>
+                <p class="para text-white">
+                  To compassionately provide care for pets and their owners by
+                  utilizing innovative healthcare modalities that produce
+                  results.
+                </p>
+                <h5 class="text-sm text-white mb-4">Get Help From Home!</h5>
+                <div class="platforms-link">
+                  <a href="">
+                    <img src="./assets/images/google-play-bdge.png" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="./assets/images/apple-badge.png" alt="" />
+                  </a>
+                  <a href="">
+                    <img src="./assets/images/televet.png" alt="" />
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 p-0">
+            <div class="content-sec-2">
+              <h5 class="text-sm">Welcome</h5>
+              <h4 class="text-md primary-text">Caring For Pets</h4>
+              <p class="para">
+                Comprehensive, Integrative Health Care for the Pets of Shawnee.
+                <br />
+                <br />
+                Companion animals are made up of so much more than just four
+                legs and fur. They are
+                <strong> complex, intelligent and uniquely special </strong>
+                creatures. Shouldn’t their health care be just as exceptional?
+                <br />
+                <br />
+
+                At <strong> Best Friends Animal Clinic</strong>, we celebrate
+                the uniqueness of each and every patient we serve. That’s why we
+                offer such a comprehensive suite of services. From natural cures
+                to conventional medicine, our
+                <strong> “East meets West”</strong> approach ensures your pet
+                will always receive the most precise, personalized care. <br />
+                <br />
+
+                Since 1990, we’ve been proudly serving the people and pets of
+                Shawnee & Bethel Acres providing a full range of traditional and
+                integrative medicine options. More importantly, we deliver that
+                care in a way that makes even the most nervous animal
+                <strong> feel safe, comfortable and right at home.</strong>
+                <br />
+                <br />
+
+                Does your Shawnee vet provide this level of
+                <strong> individualized care and attention? </strong> Are you
+                looking for a <strong> second opinion </strong> or would like to
+                explore more natural options for your pet? If so, we invite you
+                to give Best Friends Animal Clinic a try. <br />
+                <br />
+
+                From innovative treatment options to the ancient arts of
+                acupuncture, herbs, essential oils and more, we’ve got you
+                covered. <strong> Call or stop by any time</strong>. We can’t
+                wait to meet you both!
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =================seconda sec=================== -->
     <!-- =================fourth sec=================== -->
     <section class="sec-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="banner-wrap position-relative">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <h5 class="text-sm text-white">Special Offer</h5>
-                                <h4 class="text-md primary-text text-white">New Client Special Offer</h4>
-                                <p class="para text-white mb-5">Reserve Your New Client Special Offer. First pet only. Limited spots available…and they fill quickly! Dogs & Cats Only.</p>
-                                <a href="#" class="primary-btn-v2 text-white">Reserve Your Spot Now</a>
-                            </div>
-                            <!-- <div class="d-flex pets-imgs justify-content-end">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-wrap position-relative">
+              <div class="row">
+                <div class="col-md-5">
+                  <h5 class="text-sm text-white">Special Offer</h5>
+                  <h4 class="text-md primary-text text-white">
+                    New Client Special Offer
+                  </h4>
+                  <p class="para text-white mb-5">
+                    Reserve Your New Client Special Offer. First pet only.
+                    Limited spots available…and they fill quickly! Dogs & Cats
+                    Only.
+                  </p>
+                  <a href="#" class="primary-btn-v2 text-white"
+                    >Reserve Your Spot Now</a
+                  >
+                </div>
+                <!-- <div class="d-flex pets-imgs justify-content-end">
                                 <div class="pets-img">
                                     <img src="./assets/images/dog-ban1.png" alt="" class="img-fluid">
                                 </div>
@@ -211,314 +325,434 @@
                                     <img src="./assets/images/dog-ban2.png" alt="" class="img-fluid">
                                 </div>
                             </div> -->
-                            <div class="col-md-7 p-0">
-                                <img src="./assets/images/dogd-two.png" alt="" class="dog-banner-img">
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-7 p-0">
+                  <img
+                    src="./assets/images/dogd-two.png"
+                    alt=""
+                    class="dog-banner-img"
+                  />
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- =================fourth sec=================== -->
 
     <!-- ===========================sec================ -->
     <section class="sec-pad">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h5 class="text-sm primary-text text-center">The Quality Your Pets Deserve</h5>
-                    <h4 class="text-md text-center">Our Services</h4>
-                </div>
-            </div>
-            <div class="row marg-b justify-content-around">
-                <div class="col-lg-3 col-md-5 col-6">
-                    <div class="card">
-                        <img src="./assets/images/card-a.png" alt="" class="card-img">
-                        <div class="card-title-area">
-                            <div class="card-title text-white">Acupunture</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-5 col-6">
-                    <div class="card">
-                        <img src="./assets/images/card-b.png" alt="" class="card-img">
-                        <div class="card-title-area">
-                            <div class="card-title text-white">Acupunture</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-5 col-6">
-                    <div class="card">
-                        <img src="./assets/images/card-c.png" alt="" class="card-img">
-                        <div class="card-title-area">
-                            <div class="card-title text-white">Acupunture</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-5 col-6">
-                    <div class="card">
-                        <img src="./assets/images/card-d.png" alt="" class="card-img">
-                        <div class="card-title-area">
-                            <div class="card-title text-white">Acupunture</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#" class="primary-btn">View More</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-sm primary-text text-center">
+              The Quality Your Pets Deserve
+            </h5>
+            <h4 class="text-md text-center">Our Services</h4>
+          </div>
         </div>
+        <div class="row marg-b justify-content-around">
+          <div class="col-lg-3 col-md-5 col-6">
+            <div class="card">
+              <img src="./assets/images/card-a.png" alt="" class="card-img" />
+              <div class="card-title-area">
+                <div class="card-title text-white">Acupunture</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6">
+            <div class="card">
+              <img src="./assets/images/card-b.png" alt="" class="card-img" />
+              <div class="card-title-area">
+                <div class="card-title text-white">Acupunture</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6">
+            <div class="card">
+              <img src="./assets/images/card-c.png" alt="" class="card-img" />
+              <div class="card-title-area">
+                <div class="card-title text-white">Acupunture</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6">
+            <div class="card">
+              <img src="./assets/images/card-d.png" alt="" class="card-img" />
+              <div class="card-title-area">
+                <div class="card-title text-white">Acupunture</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="primary-btn">View More</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- ===========================sec================ -->
 
     <!-- =================sixth sec================== -->
     <section class="sec-pad pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h5 class="text-sm primary-text">Read Our Reviews</h5>
-                    <h4 class="text-md mb-5">What Your Neighbors Say</h4>
-                    <a href="#" class="secondary-btn">Read Our Google Reviews</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="testimonials">
-                        <div class="testimonial-wrap">
-                            <div class="testimonial">
-                                <img src="./assets/images/test-1.png" alt="" class="testimonial-img">
-                                <h4 class="text-sm itialic">“Best Friends always takes care of our fur babies in
-                                    a positive, professional way! Very thankful for their
-                                    service!”</h4>
-                                    <p class="para mb-0 text-white">Brenda & Danny</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-wrap">
-                            <div class="testimonial">
-                                <img src="./assets/images/test-1.png" alt="" class="testimonial-img">
-                                <h4 class="text-sm itialic">“Best Friends always takes care of our fur babies in
-                                    a positive, professional way! Very thankful for their
-                                    service!”</h4>
-                                    <p class="para mb-0 text-white">Brenda & Danny</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-wrap">
-                            <div class="testimonial">
-                                <img src="./assets/images/test-1.png" alt="" class="testimonial-img">
-                                <h4 class="text-sm itialic">“Best Friends always takes care of our fur babies in
-                                    a positive, professional way! Very thankful for their
-                                    service!”</h4>
-                                    <p class="para mb-0 text-white">Brenda & Danny</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-wrap">
-                            <div class="testimonial">
-                                <img src="./assets/images/test-1.png" alt="" class="testimonial-img">
-                                <h4 class="text-sm itialic">“Best Friends always takes care of our fur babies in
-                                    a positive, professional way! Very thankful for their
-                                    service!”</h4>
-                                    <p class="para mb-0 text-white">Brenda & Danny</p>
-                            </div>
-                        </div>
-                        <div class="testimonial-wrap">
-                            <div class="testimonial">
-                                <img src="./assets/images/test-1.png" alt="" class="testimonial-img">
-                                <h4 class="text-sm itialic">“Best Friends always takes care of our fur babies in
-                                    a positive, professional way! Very thankful for their
-                                    service!”</h4>
-                                    <p class="para mb-0 text-white">Brenda & Danny</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide-btns">
-                        <button type="button" class="slide-btn slide-prev"><i class="fa-solid fa-arrow-left"></i></button>
-                        <button type="button" class="slide-btn slide-next"><i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-sm primary-text">Read Our Reviews</h5>
+            <h4 class="text-md mb-5">What Your Neighbors Say</h4>
+            <a href="#" class="secondary-btn">Read Our Google Reviews</a>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="testimonials">
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img
+                    src="./assets/images/reviews/test-6.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <h4 class="text-sm itialic">
+                    “Best Friends always takes care of our fur babies in a
+                    positive, professional way! Very thankful for their
+                    service!”
+                  </h4>
+                  <p class="para mb-0 text-white">Brenda & Danny</p>
+                </div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img
+                    src="./assets/images/reviews/test-2.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <h4 class="text-sm itialic">
+                    “Best Friends always takes care of our fur babies in a
+                    positive, professional way! Very thankful for their
+                    service!”
+                  </h4>
+                  <p class="para mb-0 text-white">Brenda & Danny</p>
+                </div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img
+                    src="./assets/images/reviews/test-3.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <h4 class="text-sm itialic">
+                    “Best Friends always takes care of our fur babies in a
+                    positive, professional way! Very thankful for their
+                    service!”
+                  </h4>
+                  <p class="para mb-0 text-white">Brenda & Danny</p>
+                </div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img
+                    src="./assets/images/reviews/test-4.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <h4 class="text-sm itialic">
+                    “Best Friends always takes care of our fur babies in a
+                    positive, professional way! Very thankful for their
+                    service!”
+                  </h4>
+                  <p class="para mb-0 text-white">Brenda & Danny</p>
+                </div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img
+                    src="./assets/images/reviews/test-5.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <h4 class="text-sm itialic">
+                    “Best Friends always takes care of our fur babies in a
+                    positive, professional way! Very thankful for their
+                    service!”
+                  </h4>
+                  <p class="para mb-0 text-white">Brenda & Danny</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide-btns">
+              <button type="button" class="slide-btn slide-prev">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button type="button" class="slide-btn slide-next">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- =================sixth sec================== -->
 
-
-
     <!-- ==================seventh sec============== -->
     <section class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="bog-area">
-                        <div class="row align-items-end">
-                            <div class="col-md-8 col-12 ps-5">
-                                <h5 class="text-sm primary-text text-white">Let Us Look After Your Pet</h5>
-                                <h4 class="text-md text-white mb-0">Blog</h4>
-                            </div>
-                            <div class="col-md-4 col-12 md-right">
-                                <a href="" class="primary-btn-v2">View More</a>
-                            </div>
-                        </div>
-                        <div class="row blog-card-row">
-                            <div class="col-md-4">
-                                <div class="blog-card mt-5">
-                                    <img src="./assets/images/blog-a.png" alt="" class="blog-img">
-                                    <div class="blog-content-card">
-                                        <h5 class="text-sm primary-text text-white">National Catio Day</h5>
-                                        <p class="para text-white mb-2">March 15th is National Catio Day! This is one holiday we know our feline patients...</p>
-                                        <a href="#" class="link2">Read More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog-card mt-5">
-                                    <img src="./assets/images/blog-b.png" alt="" class="blog-img">
-                                    <div class="blog-content-card">
-                                        <h5 class="text-sm primary-text text-white">National Catio Day</h5>
-                                        <p class="para text-white mb-2">March 15th is National Catio Day! This is one holiday we know our feline patients...</p>
-                                        <a href="#" class="link2">Read More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="blog-card mt-5">
-                                    <img src="./assets/images/blog-c.png" alt="" class="blog-img">
-                                    <div class="blog-content-card">
-                                        <h5 class="text-sm primary-text text-white">National Catio Day</h5>
-                                        <p class="para text-white mb-2">March 15th is National Catio Day! This is one holiday we know our feline patients...</p>
-                                        <a href="#" class="link2">Read More <span class="ms-2"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="bog-area">
+              <div class="row align-items-end">
+                <div class="col-md-8 col-12 ps-5">
+                  <h5 class="text-sm primary-text text-white">
+                    Let Us Look After Your Pet
+                  </h5>
+                  <h4 class="text-md text-white mb-0">Blog</h4>
                 </div>
+                <div class="col-md-4 col-12 md-right">
+                  <a href="" class="primary-btn-v2">View More</a>
+                </div>
+              </div>
+              <div class="row blog-card-row">
+                <div class="col-md-4">
+                  <div class="blog-card mt-5">
+                    <img
+                      src="./assets/images/blog-a.png"
+                      alt=""
+                      class="blog-img"
+                    />
+                    <div class="blog-content-card">
+                      <h5 class="text-sm primary-text text-white">
+                        National Catio Day
+                      </h5>
+                      <p class="para text-white mb-2">
+                        March 15th is National Catio Day! This is one holiday we
+                        know our feline patients...
+                      </p>
+                      <a href="#" class="link2"
+                        >Read More
+                        <span class="ms-2"
+                          ><i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="blog-card mt-5">
+                    <img
+                      src="./assets/images/blog-b.png"
+                      alt=""
+                      class="blog-img"
+                    />
+                    <div class="blog-content-card">
+                      <h5 class="text-sm primary-text text-white">
+                        National Catio Day
+                      </h5>
+                      <p class="para text-white mb-2">
+                        March 15th is National Catio Day! This is one holiday we
+                        know our feline patients...
+                      </p>
+                      <a href="#" class="link2"
+                        >Read More
+                        <span class="ms-2"
+                          ><i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="blog-card mt-5">
+                    <img
+                      src="./assets/images/blog-c.png"
+                      alt=""
+                      class="blog-img"
+                    />
+                    <div class="blog-content-card">
+                      <h5 class="text-sm primary-text text-white">
+                        National Catio Day
+                      </h5>
+                      <p class="para text-white mb-2">
+                        March 15th is National Catio Day! This is one holiday we
+                        know our feline patients...
+                      </p>
+                      <a href="#" class="link2"
+                        >Read More
+                        <span class="ms-2"
+                          ><i class="fa-solid fa-arrow-right"></i></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- ==================seventh sec============== -->
     <section class="sec-pad pb-0">
-        <div class="container-fluid p-0">
-            <div class="row m-0">
-                <div class="col-md-6 p-0">
-                    <div class="form-area">
-                        <div class="form-fields-area">
-                            <h2 class="text-md text-white">New Clients Welcome</h2>
-                            <form action="">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="field" placeholder="Your Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="field" placeholder="Your Pet’s Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="field" placeholder="Your Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <select name="" id="" class="field">
-                                                <option value="" disabled selected>Type of Pet</option>
-                                                <option value="">Cat</option>
-                                                <option value="">Dog</option>
-                                                <option value="">Goldfish</option>
-                                                <option value="">Hamster</option>
-                                                <option value="">Kitten</option>
-                                                <option value="">Parrot</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="field" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="field" placeholder="Phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 text-end">
-                                        <button type="submit" class="submit-btn">Reserve Your Spot Now</button>
-                                    </div>  
-                                </div>
-                            </form>
-                        </div>
+      <div class="container-fluid p-0">
+        <div class="row m-0">
+          <div class="col-md-6 p-0">
+            <div class="form-area">
+              <div class="form-fields-area">
+                <h2 class="text-md text-white">New Clients Welcome</h2>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="field"
+                          placeholder="Your Name"
+                        />
+                      </div>
                     </div>
-                </div>
-                <div class="col-md-6 p-0">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361688.302253902!2d-113.7637819886989!3d36.23999124494683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1679707030561!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-                </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="field"
+                          placeholder="Your Pet’s Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="field"
+                          placeholder="Your Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select name="" id="" class="field">
+                          <option value="" disabled selected>
+                            Type of Pet
+                          </option>
+                          <option value="">Cat</option>
+                          <option value="">Dog</option>
+                          <option value="">Goldfish</option>
+                          <option value="">Hamster</option>
+                          <option value="">Kitten</option>
+                          <option value="">Parrot</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="field" placeholder="Email" />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="field" placeholder="Phone" />
+                      </div>
+                    </div>
+                    <div class="col-md-12 text-end">
+                      <button type="submit" class="submit-btn">
+                        Reserve Your Spot Now
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
+          <div class="col-md-6 p-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26361688.302253902!2d-113.7637819886989!3d36.23999124494683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1679707030561!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+          </div>
         </div>
+      </div>
     </section>
 
-
     <footer class="footer">
-        <div class="footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 mt-3">
-                        <h2 class="text-md text-white">Working Hours</h2>
-                        <p class="para text-white mb-0">
-                            Monday: 7:30 A.M — 5 30 P.M
-                            <br> Tuesday: 7:30 A.M — 5.30 P.M
-                            <br> Wednesday: 8:30 A.M — 5:30 P.M
-                            <br> Thursday: 7:30 A.M - 5:30 P.M
-                            <br> Friday: 7:30 A.M - 3:00 P.M
-                            <br> Saturday: By Appointment Only
-                            <br> Sunday: Closed
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mt-3">
-                        <h2 class="text-md text-white">Visit Us</h2>
-                        <p class="para text-white ">1313 North Harrison Avenue Shawnee, 0K 74801</p>
-                        <h2 class="text-md text-white">Our Socials</h2>
-                        <ul class="d-flex align-items-center gap-3">
-                            <li><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mt-3">
-                        <h2 class="text-md text-white">Contact Us</h2>
-                        <p class="para text-white ">Phone: 405-273-5617</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mt-3">
-                        <h2 class="text-md text-white">New Clients Welcome</h2>
-                        <form action="">
-                            <div class="form-group">
-                                <input type="text" class="field" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="field" placeholder="Your Email">
-                            </div>
-                            <div class="text-end">
-                                <button class="secondary-btn" type="submit">Sign Up</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+      <div class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mt-3">
+              <h2 class="text-md text-white">Working Hours</h2>
+              <p class="para text-white mb-0">
+                Monday: 7:30 A.M — 5 30 P.M
+                <br />
+                Tuesday: 7:30 A.M — 5.30 P.M <br />
+                Wednesday: 8:30 A.M — 5:30 P.M <br />
+                Thursday: 7:30 A.M - 5:30 P.M <br />
+                Friday: 7:30 A.M - 3:00 P.M <br />
+                Saturday: By Appointment Only <br />
+                Sunday: Closed
+              </p>
             </div>
+            <div class="col-lg-3 col-md-6 mt-3">
+              <h2 class="text-md text-white">Visit Us</h2>
+              <p class="para text-white">
+                1313 North Harrison Avenue Shawnee, 0K 74801
+              </p>
+              <h2 class="text-md text-white">Our Socials</h2>
+              <ul class="d-flex align-items-center gap-3">
+                <li>
+                  <a href="#" class="social-link"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="social-link"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="social-link"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mt-3">
+              <h2 class="text-md text-white">Contact Us</h2>
+              <p class="para text-white">Phone: 405-273-5617</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3">
+              <h2 class="text-md text-white">New Clients Welcome</h2>
+              <form action="">
+                <div class="form-group">
+                  <input type="text" class="field" placeholder="Your Name" />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="field" placeholder="Your Email" />
+                </div>
+                <div class="text-end">
+                  <button class="secondary-btn" type="submit">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="footer-bottom text-center">
-            <p class="para mb-0 text-center text-white">Copyright 0 2023 | All Rights Reserved I Terms of Use I Privacy Policy</p>
-        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="para mb-0 text-center text-white">
+          Copyright 0 2023 | All Rights Reserved I Terms of Use I Privacy Policy
+        </p>
+      </div>
     </footer>
 
     <!-- ==================scripts================== -->
     <script src="./assets/vendor/vendor.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script src="./assets/js/main.js"></script>
     <!-- ==================scripts================== -->
-
-</body>
+  </body>
 </html>
