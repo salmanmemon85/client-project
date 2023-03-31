@@ -574,6 +574,9 @@ a:hover {
  .testimonial-wrap{
     margin-bottom: 20px;
  }
+ .contact-area img{
+    margin-bottom: 20px;
+ }
   /* .menu-close {
     position: absolute;
     top: 10px;
@@ -626,6 +629,13 @@ a:hover {
    }
    .sec-3 {
     margin-bottom: 15rem;
+}
+.banner-hd{
+    font-size: 2.45rem;
+}
+.side-img-content-up {
+    transform: translateY(-60%) translateX(6%);
+    padding: 1.5rem 3rem;
 }
 }
 @media (max-width: 992px) {
@@ -711,5 +721,11 @@ a:hover {
    }
    .nav-link {
     font-size: 1.5rem;
+   }
+   .contact-banner{
+    margin-left: 0;
+   }
+   .contact-area.first {
+       margin-top: 39px;
    }
 }
